@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(56, 68, 241);
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainDiv > div {
+height: 200px;
+width: 200px;
+box-sizing: border-box;
+display: inline-block;
+border: 2px solid black;
+}
+
+.red {
+    background-color: rgb(248, 52, 52);
+}
+.red1 {
+    background-color: rgb(248, 52, 52);
+    border-radius: 50%;
+}
+.red2 {
+    background-color: rgb(248, 52, 52);
+}
+
+.yellow {
+    background-color: rgb(247, 232, 29);
+    border-radius: 50%;
+}
+
+.yellow1 {
+    background-color: rgb(247, 232, 29);
+}
+
+.yellow2 {
+    background-color: rgb(247, 232, 29);
+}
+
+.green {
+    background-color: rgb(13, 202, 54);
+}
+
+.green1 {
+    background-color: rgb(13, 202, 54);
+
+}
+
+.green2 {
+    background-color: rgb(13, 202, 54);
+    border-radius: 50%;
+}

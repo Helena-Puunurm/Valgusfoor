@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainDiv > div {
+height: 200px;
+width: 200px;
+box-sizing: border-box;
+border-radius: 50%;
+display: inline-block;
+}
+
+.red {
+    background-color: rgb(248, 52, 52);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.yellow {
+    background-color: rgb(247, 232, 29);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: rgb(13, 202, 54);
+    margin: 0 auto;
+    border-radius: 50%;
+}
